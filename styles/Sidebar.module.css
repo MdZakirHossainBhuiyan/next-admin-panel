@@ -1,0 +1,56 @@
+.sidebarContent{
+    width: 15%;
+    height: 625px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.userContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.userImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userImage Image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userInfo{
+    padding-left: 10px;
+}
+
+.userInfo h5{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.userInfo p{
+    font-size: 12px;
+}
+
+.sidebarLinks{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.sidebarLink{
+    width: 100%;
+    height: 30px;
+}
