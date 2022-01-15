@@ -21,7 +21,7 @@ const registration = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert("New tour added successfully");
+        alert("New client added successfully");
         const formData = new FormData()
         formData.append('file', file);
         formData.append('name', info.name);
